@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { addKeyObserver, removeKeyObserver } from "../util/keyboard";
-import { moveTile, makeTile } from "../util/tile";
 
 export default function useLocalStorage(key, initialValue) {
   const [value, setValue] = useState(initialValue);
